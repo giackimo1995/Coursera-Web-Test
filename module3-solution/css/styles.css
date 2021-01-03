@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Monospace;
+  align-content: center; 
+}
+
+/**Generic Style**/
+
+/** HEADER **/
+#header-nav {
+  background-color: #A9A9A9;
+  border-radius: 0;
+  border: 0;
+  min-height: 60px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-left: 0px;
+  align-content: left;
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  position:absolute;
+  left:15px;
+  top:15px;
+  font-family: Fantasy;
+  color: #4B0082;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #4B0082;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #4B0082;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+}
+
+/* HOME PAGE */
+#Subtitle {
+  padding-top: 20px;
+	text-align: center;
+	font-size: 2em;
+}
+
+.box h3{
+	text-align: center;
+}
+
+.box {
+	position: relative;
+	background-color: #A9A9A9;
+	padding: 10px;
+	border: 2px solid black;
+	width: 90%;  
+	margin-top: 40px; /*40 px distance title-box and box-box*/
+  	margin-right: auto; /* size change with width %*/
+  	margin-left: auto;  /* size change with width% */
+  	margin-bottom: 20px;
+}
+
+/**Tablet and Desktop*/

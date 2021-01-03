@@ -23,7 +23,7 @@
 
 
 .navbar-brand h1 { /* Restaurant name */
-  position:absolute;
+  position: absolute;
   left:15px;
   top:15px;
   font-family: Fantasy;
@@ -59,7 +59,7 @@
 }
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
 /* HOME PAGE */
@@ -84,5 +84,3 @@
   	margin-left: auto;  /* size change with width% */
   	margin-bottom: 20px;
 }
-
-/**Tablet and Desktop*/
